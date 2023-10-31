@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56FE8D52AF04DD100B9F65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8D42AF04DD100B9F65A /* AppDelegate.swift */; };
+		C56FE8D72AF04DD100B9F65A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8D62AF04DD100B9F65A /* SceneDelegate.swift */; };
+		C56FE8D92AF04DD100B9F65A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8D82AF04DD100B9F65A /* HomeView.swift */; };
+		C56FE8DC2AF04DD100B9F65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56FE8DA2AF04DD100B9F65A /* Main.storyboard */; };
+		C56FE8DE2AF04DD900B9F65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56FE8DD2AF04DD900B9F65A /* Assets.xcassets */; };
+		C56FE8E12AF04DD900B9F65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56FE8DF2AF04DD900B9F65A /* LaunchScreen.storyboard */; };
+		C56FE8EC2AF04DDA00B9F65A /* KonfioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8EB2AF04DDA00B9F65A /* KonfioAppTests.swift */; };
+		C56FE8F62AF04DDA00B9F65A /* KonfioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F52AF04DDA00B9F65A /* KonfioAppUITests.swift */; };
+		C56FE8F82AF04DDA00B9F65A /* KonfioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F72AF04DDA00B9F65A /* KonfioAppUITestsLaunchTests.swift */; };
+		C56FE90C2AF04F6E00B9F65A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE90B2AF04F6E00B9F65A /* HomeRouter.swift */; };
+		C56FE90E2AF04F8200B9F65A /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE90D2AF04F8200B9F65A /* HomeProtocols.swift */; };
+		C56FE9102AF04F9500B9F65A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE90F2AF04F9500B9F65A /* HomePresenter.swift */; };
+		C56FE9122AF04FAF00B9F65A /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9112AF04FAF00B9F65A /* HomeInteractor.swift */; };
+		C56FE9142AF04FBA00B9F65A /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9132AF04FBA00B9F65A /* Dog.swift */; };
+		C56FE91B2AF055B600B9F65A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE91A2AF055B600B9F65A /* DetailView.swift */; };
+		C56FE91F2AF0561700B9F65A /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE91E2AF0561600B9F65A /* DetailRouter.swift */; };
+		C56FE9232AF0564000B9F65A /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9222AF0564000B9F65A /* DetailPresenter.swift */; };
+		C56FE9252AF0566800B9F65A /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9242AF0566800B9F65A /* DetailInteractor.swift */; };
+		C56FE92A2AF071F000B9F65A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9292AF071F000B9F65A /* ViewController.swift */; };
+		C56FE92E2AF07A7B00B9F65A /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE92D2AF07A7B00B9F65A /* DetailProtocols.swift */; };
+		C56FE9302AF0A0C200B9F65A /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE92F2AF0A0C200B9F65A /* DetailViewCell.swift */; };
+		C56FE9332AF15A9D00B9F65A /* GlobalStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9322AF15A9C00B9F65A /* GlobalStrings.swift */; };
+		C56FE9362AF178E600B9F65A /* Dogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9342AF178E600B9F65A /* Dogs.xcdatamodeld */; };
+		C56FE9382AF17F9700B9F65A /* DogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56FE9372AF17F9700B9F65A /* DogManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C56FE8E82AF04DDA00B9F65A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56FE8C92AF04DD000B9F65A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56FE8D02AF04DD100B9F65A;
+			remoteInfo = KonfioApp;
+		};
+		C56FE8F22AF04DDA00B9F65A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56FE8C92AF04DD000B9F65A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56FE8D02AF04DD100B9F65A;
+			remoteInfo = KonfioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C56FE8D12AF04DD100B9F65A /* KonfioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonfioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56FE8D42AF04DD100B9F65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C56FE8D62AF04DD100B9F65A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C56FE8D82AF04DD100B9F65A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C56FE8DB2AF04DD100B9F65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C56FE8DD2AF04DD900B9F65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C56FE8E02AF04DD900B9F65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C56FE8E22AF04DD900B9F65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56FE8E72AF04DDA00B9F65A /* KonfioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KonfioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56FE8EB2AF04DDA00B9F65A /* KonfioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonfioAppTests.swift; sourceTree = "<group>"; };
+		C56FE8F12AF04DDA00B9F65A /* KonfioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KonfioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56FE8F52AF04DDA00B9F65A /* KonfioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonfioAppUITests.swift; sourceTree = "<group>"; };
+		C56FE8F72AF04DDA00B9F65A /* KonfioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonfioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C56FE90B2AF04F6E00B9F65A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		C56FE90D2AF04F8200B9F65A /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C56FE90F2AF04F9500B9F65A /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C56FE9112AF04FAF00B9F65A /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C56FE9132AF04FBA00B9F65A /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		C56FE91A2AF055B600B9F65A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C56FE91E2AF0561600B9F65A /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		C56FE9222AF0564000B9F65A /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		C56FE9242AF0566800B9F65A /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		C56FE9292AF071F000B9F65A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C56FE92D2AF07A7B00B9F65A /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		C56FE92F2AF0A0C200B9F65A /* DetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
+		C56FE9322AF15A9C00B9F65A /* GlobalStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStrings.swift; sourceTree = "<group>"; };
+		C56FE9352AF178E600B9F65A /* Dogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dogs.xcdatamodel; sourceTree = "<group>"; };
+		C56FE9372AF17F9700B9F65A /* DogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56FE8CE2AF04DD100B9F65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56FE8E42AF04DDA00B9F65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56FE8EE2AF04DDA00B9F65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56FE8C82AF04DD000B9F65A = {
+			isa = PBXGroup;
+			children = (
+				C56FE8D32AF04DD100B9F65A /* KonfioApp */,
+				C56FE8EA2AF04DDA00B9F65A /* KonfioAppTests */,
+				C56FE8F42AF04DDA00B9F65A /* KonfioAppUITests */,
+				C56FE8D22AF04DD100B9F65A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56FE8D22AF04DD100B9F65A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE8D12AF04DD100B9F65A /* KonfioApp.app */,
+				C56FE8E72AF04DDA00B9F65A /* KonfioAppTests.xctest */,
+				C56FE8F12AF04DDA00B9F65A /* KonfioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56FE8D32AF04DD100B9F65A /* KonfioApp */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE9312AF15A7900B9F65A /* app-constants */,
+				C56FE9282AF071C500B9F65A /* app-controllers */,
+				C56FE92C2AF0764800B9F65A /* app-modules */,
+				C56FE92B2AF071FA00B9F65A /* app-ui */,
+				C56FE8DD2AF04DD900B9F65A /* Assets.xcassets */,
+				C56FE9342AF178E600B9F65A /* Dogs.xcdatamodeld */,
+				C56FE8E22AF04DD900B9F65A /* Info.plist */,
+			);
+			path = KonfioApp;
+			sourceTree = "<group>";
+		};
+		C56FE8EA2AF04DDA00B9F65A /* KonfioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE8EB2AF04DDA00B9F65A /* KonfioAppTests.swift */,
+			);
+			path = KonfioAppTests;
+			sourceTree = "<group>";
+		};
+		C56FE8F42AF04DDA00B9F65A /* KonfioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE8F52AF04DDA00B9F65A /* KonfioAppUITests.swift */,
+				C56FE8F72AF04DDA00B9F65A /* KonfioAppUITestsLaunchTests.swift */,
+			);
+			path = KonfioAppUITests;
+			sourceTree = "<group>";
+		};
+		C56FE9042AF04EAA00B9F65A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE90A2AF04EED00B9F65A /* Entity */,
+				C56FE9092AF04EE100B9F65A /* Interactor */,
+				C56FE9082AF04ED600B9F65A /* Presenter */,
+				C56FE9072AF04EC600B9F65A /* Protocols */,
+				C56FE9062AF04EBD00B9F65A /* Router */,
+				C56FE9052AF04EB500B9F65A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C56FE9052AF04EB500B9F65A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE8D82AF04DD100B9F65A /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C56FE9062AF04EBD00B9F65A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE90B2AF04F6E00B9F65A /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C56FE9072AF04EC600B9F65A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE90D2AF04F8200B9F65A /* HomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C56FE9082AF04ED600B9F65A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE90F2AF04F9500B9F65A /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C56FE9092AF04EE100B9F65A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE9112AF04FAF00B9F65A /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C56FE90A2AF04EED00B9F65A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE9132AF04FBA00B9F65A /* Dog.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C56FE9152AF0554900B9F65A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE91C2AF055D900B9F65A /* Interactor */,
+				C56FE9192AF0557300B9F65A /* Presenter */,
+				C56FE9182AF0556800B9F65A /* Protocols */,
+				C56FE9172AF0555F00B9F65A /* Router */,
+				C56FE9162AF0555500B9F65A /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C56FE9162AF0555500B9F65A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE91A2AF055B600B9F65A /* DetailView.swift */,
+				C56FE92F2AF0A0C200B9F65A /* DetailViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C56FE9172AF0555F00B9F65A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE91E2AF0561600B9F65A /* DetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C56FE9182AF0556800B9F65A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE92D2AF07A7B00B9F65A /* DetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C56FE9192AF0557300B9F65A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE9222AF0564000B9F65A /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C56FE91C2AF055D900B9F65A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE9242AF0566800B9F65A /* DetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C56FE9282AF071C500B9F65A /* app-controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE8D42AF04DD100B9F65A /* AppDelegate.swift */,
+				C56FE8D62AF04DD100B9F65A /* SceneDelegate.swift */,
+				C56FE9292AF071F000B9F65A /* ViewController.swift */,
+			);
+			path = "app-controllers";
+			sourceTree = "<group>";
+		};
+		C56FE92B2AF071FA00B9F65A /* app-ui */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE8DF2AF04DD900B9F65A /* LaunchScreen.storyboard */,
+				C56FE8DA2AF04DD100B9F65A /* Main.storyboard */,
+			);
+			path = "app-ui";
+			sourceTree = "<group>";
+		};
+		C56FE92C2AF0764800B9F65A /* app-modules */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE9152AF0554900B9F65A /* Detail */,
+				C56FE9042AF04EAA00B9F65A /* Home */,
+			);
+			path = "app-modules";
+			sourceTree = "<group>";
+		};
+		C56FE9312AF15A7900B9F65A /* app-constants */ = {
+			isa = PBXGroup;
+			children = (
+				C56FE9372AF17F9700B9F65A /* DogManager.swift */,
+				C56FE9322AF15A9C00B9F65A /* GlobalStrings.swift */,
+			);
+			path = "app-constants";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56FE8D02AF04DD100B9F65A /* KonfioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56FE8FB2AF04DDA00B9F65A /* Build configuration list for PBXNativeTarget "KonfioApp" */;
+			buildPhases = (
+				C56FE8CD2AF04DD100B9F65A /* Sources */,
+				C56FE8CE2AF04DD100B9F65A /* Frameworks */,
+				C56FE8CF2AF04DD100B9F65A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KonfioApp;
+			productName = KonfioApp;
+			productReference = C56FE8D12AF04DD100B9F65A /* KonfioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56FE8E62AF04DDA00B9F65A /* KonfioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56FE8FE2AF04DDA00B9F65A /* Build configuration list for PBXNativeTarget "KonfioAppTests" */;
+			buildPhases = (
+				C56FE8E32AF04DDA00B9F65A /* Sources */,
+				C56FE8E42AF04DDA00B9F65A /* Frameworks */,
+				C56FE8E52AF04DDA00B9F65A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56FE8E92AF04DDA00B9F65A /* PBXTargetDependency */,
+			);
+			name = KonfioAppTests;
+			productName = KonfioAppTests;
+			productReference = C56FE8E72AF04DDA00B9F65A /* KonfioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C56FE8F02AF04DDA00B9F65A /* KonfioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56FE9012AF04DDA00B9F65A /* Build configuration list for PBXNativeTarget "KonfioAppUITests" */;
+			buildPhases = (
+				C56FE8ED2AF04DDA00B9F65A /* Sources */,
+				C56FE8EE2AF04DDA00B9F65A /* Frameworks */,
+				C56FE8EF2AF04DDA00B9F65A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56FE8F32AF04DDA00B9F65A /* PBXTargetDependency */,
+			);
+			name = KonfioAppUITests;
+			productName = KonfioAppUITests;
+			productReference = C56FE8F12AF04DDA00B9F65A /* KonfioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56FE8C92AF04DD000B9F65A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C56FE8D02AF04DD100B9F65A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C56FE8E62AF04DDA00B9F65A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C56FE8D02AF04DD100B9F65A;
+					};
+					C56FE8F02AF04DDA00B9F65A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C56FE8D02AF04DD100B9F65A;
+					};
+				};
+			};
+			buildConfigurationList = C56FE8CC2AF04DD000B9F65A /* Build configuration list for PBXProject "KonfioApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C56FE8C82AF04DD000B9F65A;
+			productRefGroup = C56FE8D22AF04DD100B9F65A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56FE8D02AF04DD100B9F65A /* KonfioApp */,
+				C56FE8E62AF04DDA00B9F65A /* KonfioAppTests */,
+				C56FE8F02AF04DDA00B9F65A /* KonfioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56FE8CF2AF04DD100B9F65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56FE8E12AF04DD900B9F65A /* LaunchScreen.storyboard in Resources */,
+				C56FE8DE2AF04DD900B9F65A /* Assets.xcassets in Resources */,
+				C56FE8DC2AF04DD100B9F65A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56FE8E52AF04DDA00B9F65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56FE8EF2AF04DDA00B9F65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56FE8CD2AF04DD100B9F65A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56FE8D92AF04DD100B9F65A /* HomeView.swift in Sources */,
+				C56FE91B2AF055B600B9F65A /* DetailView.swift in Sources */,
+				C56FE90E2AF04F8200B9F65A /* HomeProtocols.swift in Sources */,
+				C56FE9362AF178E600B9F65A /* Dogs.xcdatamodeld in Sources */,
+				C56FE9382AF17F9700B9F65A /* DogManager.swift in Sources */,
+				C56FE92A2AF071F000B9F65A /* ViewController.swift in Sources */,
+				C56FE90C2AF04F6E00B9F65A /* HomeRouter.swift in Sources */,
+				C56FE9102AF04F9500B9F65A /* HomePresenter.swift in Sources */,
+				C56FE91F2AF0561700B9F65A /* DetailRouter.swift in Sources */,
+				C56FE8D52AF04DD100B9F65A /* AppDelegate.swift in Sources */,
+				C56FE9252AF0566800B9F65A /* DetailInteractor.swift in Sources */,
+				C56FE9332AF15A9D00B9F65A /* GlobalStrings.swift in Sources */,
+				C56FE8D72AF04DD100B9F65A /* SceneDelegate.swift in Sources */,
+				C56FE92E2AF07A7B00B9F65A /* DetailProtocols.swift in Sources */,
+				C56FE9142AF04FBA00B9F65A /* Dog.swift in Sources */,
+				C56FE9302AF0A0C200B9F65A /* DetailViewCell.swift in Sources */,
+				C56FE9122AF04FAF00B9F65A /* HomeInteractor.swift in Sources */,
+				C56FE9232AF0564000B9F65A /* DetailPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56FE8E32AF04DDA00B9F65A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56FE8EC2AF04DDA00B9F65A /* KonfioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56FE8ED2AF04DDA00B9F65A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56FE8F82AF04DDA00B9F65A /* KonfioAppUITestsLaunchTests.swift in Sources */,
+				C56FE8F62AF04DDA00B9F65A /* KonfioAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56FE8E92AF04DDA00B9F65A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56FE8D02AF04DD100B9F65A /* KonfioApp */;
+			targetProxy = C56FE8E82AF04DDA00B9F65A /* PBXContainerItemProxy */;
+		};
+		C56FE8F32AF04DDA00B9F65A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56FE8D02AF04DD100B9F65A /* KonfioApp */;
+			targetProxy = C56FE8F22AF04DDA00B9F65A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C56FE8DA2AF04DD100B9F65A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56FE8DB2AF04DD100B9F65A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C56FE8DF2AF04DD900B9F65A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56FE8E02AF04DD900B9F65A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56FE8F92AF04DDA00B9F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C56FE8FA2AF04DDA00B9F65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C56FE8FC2AF04DDA00B9F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KonfioApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KonfioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C56FE8FD2AF04DDA00B9F65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KonfioApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KonfioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C56FE8FF2AF04DDA00B9F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KonfioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KonfioApp.app/KonfioApp";
+			};
+			name = Debug;
+		};
+		C56FE9002AF04DDA00B9F65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KonfioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KonfioApp.app/KonfioApp";
+			};
+			name = Release;
+		};
+		C56FE9022AF04DDA00B9F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KonfioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KonfioApp;
+			};
+			name = Debug;
+		};
+		C56FE9032AF04DDA00B9F65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KonfioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KonfioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56FE8CC2AF04DD000B9F65A /* Build configuration list for PBXProject "KonfioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56FE8F92AF04DDA00B9F65A /* Debug */,
+				C56FE8FA2AF04DDA00B9F65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56FE8FB2AF04DDA00B9F65A /* Build configuration list for PBXNativeTarget "KonfioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56FE8FC2AF04DDA00B9F65A /* Debug */,
+				C56FE8FD2AF04DDA00B9F65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56FE8FE2AF04DDA00B9F65A /* Build configuration list for PBXNativeTarget "KonfioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56FE8FF2AF04DDA00B9F65A /* Debug */,
+				C56FE9002AF04DDA00B9F65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56FE9012AF04DDA00B9F65A /* Build configuration list for PBXNativeTarget "KonfioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56FE9022AF04DDA00B9F65A /* Debug */,
+				C56FE9032AF04DDA00B9F65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C56FE9342AF178E600B9F65A /* Dogs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C56FE9352AF178E600B9F65A /* Dogs.xcdatamodel */,
+			);
+			currentVersion = C56FE9352AF178E600B9F65A /* Dogs.xcdatamodel */;
+			path = Dogs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C56FE8C92AF04DD000B9F65A /* Project object */;
+}
